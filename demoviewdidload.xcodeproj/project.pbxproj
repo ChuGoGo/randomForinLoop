@@ -13,6 +13,7 @@
 		9E847DE027E8AFEF00387D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E847DDE27E8AFEF00387D54 /* Main.storyboard */; };
 		9E847DE227E8AFF000387D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E847DE127E8AFF000387D54 /* Assets.xcassets */; };
 		9E847DE527E8AFF000387D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E847DE327E8AFF000387D54 /* LaunchScreen.storyboard */; };
+		9EC7AC5427E8B8E6006F162C /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7AC5327E8B8E6006F162C /* SecViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9E847DE127E8AFF000387D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E847DE427E8AFF000387D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E847DE627E8AFF000387D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC7AC5327E8B8E6006F162C /* SecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9E847DDA27E8AFEF00387D54 /* SceneDelegate.swift */,
 				9E847DDC27E8AFEF00387D54 /* ViewController.swift */,
 				9E847DDE27E8AFEF00387D54 /* Main.storyboard */,
+				9EC7AC5327E8B8E6006F162C /* SecViewController.swift */,
 				9E847DE127E8AFF000387D54 /* Assets.xcassets */,
 				9E847DE327E8AFF000387D54 /* LaunchScreen.storyboard */,
 				9E847DE627E8AFF000387D54 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC7AC5427E8B8E6006F162C /* SecViewController.swift in Sources */,
 				9E847DDD27E8AFEF00387D54 /* ViewController.swift in Sources */,
 				9E847DD927E8AFEF00387D54 /* AppDelegate.swift in Sources */,
 				9E847DDB27E8AFEF00387D54 /* SceneDelegate.swift in Sources */,
@@ -290,6 +294,7 @@
 				DEVELOPMENT_TEAM = 6G2BQ926Y4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = demoviewdidload/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rondomForInLoop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +323,7 @@
 				DEVELOPMENT_TEAM = 6G2BQ926Y4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = demoviewdidload/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rondomForInLoop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
